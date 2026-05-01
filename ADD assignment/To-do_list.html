@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Advanced To-Do List</title>
+<head>
+  <link rel="stylesheet" href="To-do_list.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>To-Do List</h2>
+
+    <input type="text" id="taskInput" placeholder="Enter task">
+
+    <select id="priority">
+        <option value="High">High</option>
+        <option value="Medium">Medium</option>
+        <option value="Low">Low</option>
+    </select>
+
+    <button onclick="addTask()">Add Task</button>
+
+    <div id="taskList"></div>
+</div>
+<script src="To-do_list.js"></script>
+</body>
+</html>
